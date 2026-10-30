@@ -56,7 +56,7 @@
      2) QuickPizza มี Noisy Neighbors ที่ผู้ใช้คนอื่นทั่วโลกยิงทดสอบพร้อมกัน ไม่เหมือน Lab ที่ทรัพยากรถูกกำหนดแยกไว้
 
 8. **Why must you never run a stress, spike or breakpoint test with hundreds of users against a site that you do not own?**
-   **Ans:** You must never run stress, spike, or breakpoint tests with hundreds of users against an external site you do not own because high load can overwhelm server hardware, exhaust network bandwidth, crash production databases, and deny service to real users (effectively constituting an accidental or deliberate Denial-of-Service / DoS attack). It can also inflict substantial cloud hosting bills on the site owners and violates acceptable use policies and computer fraud and abuse laws. เสี่ยงทำให้ระบบล่ม เกิด DoS เจ้าของระบบต้องจ่ายค่า Cloud จำนวนมาก และผิดกฎหมายพ.ร.บ.คอมพิวเตอร์
+   **Ans:** เสี่ยงทำให้ระบบล่ม เกิด DoS เจ้าของระบบต้องจ่ายค่า Cloud จำนวนมาก และผิดกฎหมายพ.ร.บ.คอมพิวเตอร์
 
 9. **Write one vague performance requirement for an app you use every day. Rewrite it as a testable requirement, and show the K6 thresholds that check it.**
    **Ans:** Spotify Track Search
